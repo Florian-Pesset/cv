@@ -1,0 +1,33 @@
+.contact {
+  padding: 2em;
+}
+
+/* images */
+.profil {
+  height: 60vw;
+  border-radius: 3vw;
+  box-shadow: 5px 5px 5px black;
+}
+.tel,
+.mail {
+  height: 6vw;
+}
+/* infos*/
+.numTel,
+.mailLink,
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.7rem;
+}
+
+.github,
+.linkedin,
+.cv {
+  margin: 0.5rem;
+}
+
+.objectif {
+  margin: 0 2.5rem 2.5rem;
+}
