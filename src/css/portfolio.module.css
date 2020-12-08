@@ -1,9 +1,15 @@
+.portfolioImg {
+  max-width: 80vw;
+}
+.projects {
+  text-align: justify;
+  padding: 1.5em;
+}
 @media screen and (min-width: 768px) {
   .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    text-align: justify;
   }
 
   .geobike,
@@ -12,6 +18,12 @@
   }
   .portfolioImg {
     max-height: 50vh;
-    box-shadow: 5px 5px 5px black;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1550px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }

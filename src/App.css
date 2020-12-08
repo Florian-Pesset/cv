@@ -2,8 +2,9 @@
   text-align: center;
   background-color: #17181f;
   color: whitesmoke;
-  height: 150vh;
-  overflow: hidden;
+  height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 a {
@@ -89,8 +90,7 @@ a {
   position: absolute;
   width: 35vw;
   margin: -100px 0 0 -50px;
-  padding: 4em 4em 4em 5em;
-  padding-top: 125px;
+  padding: 7em 4em 4em 5em;
   background: #cae0b7;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -99,6 +99,7 @@ a {
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   box-shadow: 0 5px 10px 0 rgb(0, 0, 0);
   font-family: "Krona One", sans-serif;
+  text-align: justify;
 }
 
 #menu li {
@@ -119,6 +120,10 @@ a {
     display: none;
   }
 
+  #menuToggle {
+    left: 0;
+  }
+
   #menuToggle span,
   .nav-input {
     display: none;
@@ -132,9 +137,9 @@ a {
     display: flex;
     width: 100%;
     background-color: #21668c;
-    padding: 1em;
-    padding-top: 6em;
-    background: linear-gradient(-45deg, #e05429, #06429c, #23a6d5, #178a6f);
+    padding: 6em 1em 1em 1em;
+    margin: -5em 0 0 0;
+    background: linear-gradient(-45deg, #313238, #062b62, #007ba8, #196b58);
     background-size: 400% 400%;
     animation: gradient 30s ease infinite;
   }
@@ -169,7 +174,7 @@ a {
   .logos {
     display: flex;
     z-index: 1;
-    max-height: 3em;
+    max-height: 2.5em;
     margin-right: 0.5rem;
   }
 

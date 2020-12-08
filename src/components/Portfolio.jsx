@@ -6,7 +6,7 @@ import arena from "../img/arenapit.png";
 class Portfolio extends React.Component {
   render() {
     return (
-      <div>
+      <div className={styles.portfolio}>
         <h2>Portfolio</h2>
         <div className={styles.projects}>
           <div className={styles.geobike}>
