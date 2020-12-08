@@ -1,0 +1,9 @@
+@media screen and (min-width: 768px) {
+  .mainexp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5vw;
+    background-color: #17181f;
+  }
+}

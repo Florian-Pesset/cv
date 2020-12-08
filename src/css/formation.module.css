@@ -18,6 +18,7 @@
 }
 .main {
   margin: 1em;
+  max-width: 40vw;
 }
 
 .card {

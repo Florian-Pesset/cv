@@ -34,7 +34,7 @@ class Formation extends React.Component {
               <h4>
                 {this.props.lieu} {this.props.année}
               </h4>
-              <p>{this.props.description}</p>
+              <p>{this.props.description.replace("  ", `${(<br />)}`)}</p>
             </div>
           ) : (
             ""

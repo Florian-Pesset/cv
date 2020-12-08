@@ -18,27 +18,29 @@ class Experiences extends React.Component {
   render() {
     return (
       <div className={styles.main}>
-        <h3
-          className={
-            this.state.isToggleOn
-              ? styles["experiencesTitleClicked"]
-              : styles["experiencesTitleNotClicked"]
-          }
-          onClick={this.handleClick}
-        >
-          {this.props.nom} {this.state.isToggleOn ? "[-]" : "[+]"}
-        </h3>
-        <div>
-          {this.state.isToggleOn ? (
-            <div className={styles.card}>
-              <h4>
-                {this.props.lieu} {this.props.année}
-              </h4>
-              <p>{this.props.description}</p>
-            </div>
-          ) : (
-            ""
-          )}
+        <div className={styles.conteneur}>
+          <h3
+            className={
+              this.state.isToggleOn
+                ? styles["experiencesTitleClicked"]
+                : styles["experiencesTitleNotClicked"]
+            }
+            onClick={this.handleClick}
+          >
+            {this.props.nom} {this.state.isToggleOn ? "[-]" : "[+]"}
+          </h3>
+          <div>
+            {this.state.isToggleOn ? (
+              <div className={styles.card}>
+                <h4>
+                  {this.props.lieu} {this.props.année}
+                </h4>
+                <p>{this.props.description}</p>
+              </div>
+            ) : (
+              ""
+            )}
+          </div>
         </div>
       </div>
     );
