@@ -34,7 +34,16 @@ class Formation extends React.Component {
               <h4>
                 {this.props.lieu} {this.props.année}
               </h4>
-              <p>{this.props.description.replace("  ", `${(<br />)}`)}</p>
+              <p>
+                {this.props.description.split("\n").map((item, key) => {
+                  return (
+                    <div key={key}>
+                      {item}
+                      <br />
+                    </div>
+                  );
+                })}
+              </p>
             </div>
           ) : (
             ""
