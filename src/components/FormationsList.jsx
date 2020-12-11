@@ -21,7 +21,7 @@ const formations = [
     lieu: "École supérieure du bois/Lycée Arago - Nantes",
     description: `L'objectif de ce BTS est de former des spécialistes de la conception et de l'industrialisation d'un produit dans la filière bois (ameublement, menuiserie industrielle, mobilier d'agencement).\n
       On étudie la chaîne complète d'un produit bois depuis sa conception jusqu'au recyclage. On maîtrise les phases de fabrication spécifiques aux secteurs : ameublement, menuiserie, agencement, parquets et lambris.\n
-      Connaissant les solutions techniques constructives, les matériaux et les procédés, il peut développer des produits en vue de leur réalisation : établir les modifications du produit, vérifier la faisabilité technico-économique, participer à l'amélioration de la réalisation. \n
+      Connaissant les solutions techniques constructives, les matériaux et les procédés, on développe des produits en vue de leur réalisation : établir les modifications du produit, vérifier la faisabilité technico-économique, participer à l'amélioration de la réalisation. \n
       J'ai acquis un ensemble de techniques comme la CAO et la FAO (maquette numérique) et les process pour élaborer une fabrication industrielle, réaliser le dossier d'industrialisation, calculer les coûts de production prévisionnels... \n
       J'ai été formé à l'organisation de la production : planification des approvisionnements et des opérations de maintenance, adaptation charge de travail et ressources humaines, utilisation d' un système de gestion intégré (ERP). `,
   },
@@ -32,7 +32,7 @@ const formations = [
     année: "2010-2011",
     lieu: "IUT de la Fleuriaye - Carquefou",
     description: `Matériaux et sciences connexes : matériaux métalliques et polymères, chimie, structure de la matière, thermodynamique, physique appliquée, statique du solide.\n
-    Bases du génie des matériaux : découverte des matériaux et des techniques de mise en œuvre, techniques expérimentales,dessin assisté par ordinateur, hygiène sécurité environnement développement durable. \n
+    Bases du génie des matériaux : découverte des matériaux et des techniques de mise en œuvre, techniques expérimentales, dessin assisté par ordinateur, hygiène sécurité environnement développement durable. \n
     Langages fondamentaux : expression-communication, langue vivante, projet personnel et professionnel, dessin et documentation technique, mathématiques, adaptation individualisée. Sciences appliquées aux matériaux : matériaux verres et céramiques,chimie des solutions, écoulement des fluides, phénomènes de transfert, résistance des matériaux. \n
     Ingénierie des matériaux : ingénierie et écoconception, ingénierie des métaux, des polymères, des verres et des céramiques, caractérisation des matériaux, analyse technique et technologie, mesure industrielle.`,
   },
@@ -42,7 +42,7 @@ const formations = [
       "Baccalauréat Sciences et Techniques Industrielles option «Génie des Matériaux» ",
     année: "2010",
     lieu: "Lycée Livet - Nantes",
-    description: `Au cours de cette formation les étudiants sont formés sur quatre spécialités : plasturgie, fonderie, céramique et verre. Les enseignements de ce baccalauréat sont assez larges : 
+    description: `Au cours de cette formation j'ai été formé sur quatre spécialités : plasturgie, fonderie, céramique et verre. Les enseignements de ce baccalauréat sont assez larges : 
       Physique des matériaux, Analyse du coût et de la qualité d’un produit, Systèmes de production, Energie électrique`,
   },
 ];
